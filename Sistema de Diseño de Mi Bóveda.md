@@ -7,6 +7,7 @@ Este documento es el registro central de todos los formatos personalizados. Sirv
 | Vista Previa | Uso / Significado | Clase CSS | Template / Atajo |
 | :--- | :--- | :--- | :--- |
 | <span class="txt-concepto">Concepto Clave</span> | Definiciones, terminología técnica o ideas fundamentales. | `.txt-concepto` | Alt + C |
+| <span class="txt-resaltado">Texto resaltado</span> | Para resaltar algún texto. | `.txt-resaltado` | Por definir |
 
 ## 📚 Diccionario de Propiedades CSS (Referencia)
 
@@ -50,6 +51,12 @@ Si usas `background-color`, añade estos para que no se vea "apretado":
     color: #5ccfe6;
     font-weight: bold;
     font-style: italic;
+}
+
+.txt-resaltado {
+    color: #ffd95a;
+    font-weight: bold;
+    text-decoration: underline;
 }
 ```
 

@@ -5,3 +5,10 @@
     font-weight: bold;
     font-style: italic;
 }
+
+.txt-resaltado {
+    color: #ffd95a;
+    /* Amarillo */
+    font-weight: bold;
+    text-decoration: underline;
+}
