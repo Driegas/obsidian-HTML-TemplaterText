@@ -1,4 +1,5 @@
 /* --- CATEGORÍA: CONCEPTOS --- */
+
 .txt-concepto {
     color: #5ccfe6;
     /* Celeste brillante (Cyan) */
@@ -6,6 +7,7 @@
     font-style: italic;
 }
 
+/* --- CATEGORÍA: RESALTADO --- */
 .txt-resaltado {
     color: #ffd95a;
     /* Amarillo */
