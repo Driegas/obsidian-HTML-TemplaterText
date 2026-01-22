@@ -14,3 +14,11 @@
     font-weight: bold;
     text-decoration: underline;
 }
+
+/* --- CATEGORÍA: DESTACADO NEGATIVO --- */
+.txt-negativo {
+    color: #ff4d4d;
+    /* Rojo */
+    font-weight: bold;
+    font-style: italic;
+}
