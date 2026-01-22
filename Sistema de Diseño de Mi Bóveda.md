@@ -8,6 +8,7 @@ Este documento es el registro central de todos los formatos personalizados. Sirv
 | :--- | :--- | :--- | :--- |
 | <span class="txt-concepto">Concepto Clave</span> | Definiciones, terminología técnica o ideas fundamentales. | `.txt-concepto` | Alt + C |
 | <span class="txt-resaltado">Texto resaltado</span> | Para resaltar algún texto. | `.txt-resaltado` | Por definir |
+| <span class="txt-negativo">Texto negativo</span> | Para destacar información negativa. | `.txt-negativo` | Por definir |
 
 ## 📚 Diccionario de Propiedades CSS (Referencia)
 
@@ -57,6 +58,12 @@ Si usas `background-color`, añade estos para que no se vea "apretado":
     color: #ffd95a;
     font-weight: bold;
     text-decoration: underline;
+}
+
+.txt-negativo {
+    color: #ff4d4d;
+    font-weight: bold;
+    font-style: italic;
 }
 ```
 
