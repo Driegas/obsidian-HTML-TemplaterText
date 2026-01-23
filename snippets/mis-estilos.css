@@ -22,3 +22,19 @@
     font-weight: bold;
     font-style: italic;
 }
+
+/* --- CATEGORÍA: TAMAÑO DE TEXTO --- */
+.txt-tamano-28 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.txt-tamano-22 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.txt-tamano-18 {
+    font-size: 18px;
+    font-weight: bold;
+}
