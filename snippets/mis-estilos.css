@@ -23,6 +23,13 @@
     font-style: italic;
 }
 
+/* --- CATEGORÍA: OTROS --- */
+.txt-otros {
+    color: #ff69b4;
+    /* Rosado */
+    font-weight: bold;
+}
+
 /* --- CATEGORÍA: TAMAÑO DE TEXTO --- */
 .txt-tamano-28 {
     font-size: 28px;

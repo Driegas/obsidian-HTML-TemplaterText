@@ -9,6 +9,7 @@ Este documento es el registro central de todos los formatos personalizados. Sirv
 | <span class="txt-concepto">Concepto Clave</span> | Definiciones, terminología técnica o ideas fundamentales. | `.txt-concepto` | Alt + C |
 | <span class="txt-resaltado">Texto resaltado</span> | Para resaltar algún texto. | `.txt-resaltado` | Por definir |
 | <span class="txt-negativo">Texto negativo</span> | Para destacar información negativa. | `.txt-negativo` | Por definir |
+| <span class="txt-otros">Texto otros</span> | Texto para categoría otros. | `.txt-otros` | Por definir |
 | <span class="txt-tamano-28">Texto 28px</span> | Texto grande sin convertirlo en título. | `.txt-tamano-28` | Por definir |
 | <span class="txt-tamano-22">Texto 22px</span> | Texto mediano sin convertirlo en título. | `.txt-tamano-22` | Por definir |
 | <span class="txt-tamano-18">Texto 18px</span> | Texto ligeramente más grande sin convertirlo en título. | `.txt-tamano-18` | Por definir |
@@ -67,6 +68,11 @@ Si usas `background-color`, añade estos para que no se vea "apretado":
     color: #ff4d4d;
     font-weight: bold;
     font-style: italic;
+}
+
+.txt-otros {
+    color: #ff69b4;
+    font-weight: bold;
 }
 
 .txt-tamano-28 {
