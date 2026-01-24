@@ -10,9 +10,11 @@ Este documento es el registro central de todos los formatos personalizados. Sirv
 | <span class="txt-resaltado">Texto resaltado</span> | Para resaltar algún texto. | `.txt-resaltado` | Por definir |
 | <span class="txt-negativo">Texto negativo</span> | Para destacar información negativa. | `.txt-negativo` | Por definir |
 | <span class="txt-otros">Texto otros</span> | Texto para categoría otros. | `.txt-otros` | Por definir |
-| <span class="txt-tamano-28">Texto 28px</span> | Texto grande sin convertirlo en título. | `.txt-tamano-28` | Por definir |
-| <span class="txt-tamano-22">Texto 22px</span> | Texto mediano sin convertirlo en título. | `.txt-tamano-22` | Por definir |
-| <span class="txt-tamano-18">Texto 18px</span> | Texto ligeramente más grande sin convertirlo en título. | `.txt-tamano-18` | Por definir |
+| <span class="txt-tamano-28">Texto 28px</span> | Texto grande sin convertirlo en título. | `.txt-tamano-28` | `Fmt - Tamaño 28` |
+| <span class="txt-tamano-22">Texto 22px</span> | Texto mediano sin convertirlo en título. | `.txt-tamano-22` | `Fmt - Tamaño 22` |
+| <span class="txt-tamano-18">Texto 18px</span> | Texto ligeramente más grande sin convertirlo en título. | `.txt-tamano-18` | `Fmt - Tamaño 18` |
+| <span class="txt-tamano-14">Texto 14px</span> | Texto más compacto para contenido secundario. | `.txt-tamano-14` | `Fmt - Tamaño 14` |
+| <span class="txt-tamano-12">Texto 12px</span> | Texto muy pequeño para notas de apoyo. | `.txt-tamano-12` | `Fmt - Tamaño 12` |
 
 ## 📚 Diccionario de Propiedades CSS (Referencia)
 
@@ -87,6 +89,16 @@ Si usas `background-color`, añade estos para que no se vea "apretado":
 
 .txt-tamano-18 {
     font-size: 18px;
+    font-weight: bold;
+}
+
+.txt-tamano-14 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.txt-tamano-12 {
+    font-size: 12px;
     font-weight: bold;
 }
 ```
